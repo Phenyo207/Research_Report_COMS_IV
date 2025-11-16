@@ -1,17 +1,17 @@
-# 🧠 WVF in Continuous Control: Goal-Conditioned Reinforcement Learning with Continuous WVF and Langevin Sampling
+# WVF in Continuous Control: Goal-Conditioned Reinforcement Learning with Continuous WVF and Langevin Sampling
 
 This repository implements a **GCRL Soft Actor-Critic (SAC)** framework enhanced with **World Value Function (WVF)** critics and **Langevin-based goal sampling**.  
 It supports **Gymnasium Robotics** environments and custom wrappers that allow the agent to autonomously discover and refine internal goals.
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
-### 🐍 Python
+### Python
 - **Python 3.10 or 3.11**  
   *(Python 3.12 is not yet fully compatible with `mujoco` and `gymnasium-robotics`.)*
 
-### 📦 Core Dependencies
+### Dependencies
 | Package | Purpose | Recommended Version |
 |----------|----------|----------------------|
 | `torch` | Deep learning and policy/value networks | ≥ 2.0.0 |
@@ -21,7 +21,7 @@ It supports **Gymnasium Robotics** environments and custom wrappers that allow t
 | `numpy` | Numerical operations | ≥ 1.24 |
 | `tensorboard` | Logging and visualization | ≥ 2.12 |
 
-### 📈 Optional (Recommended for Development)
+### Optional (Recommended for Development)
 | Package | Purpose |
 |----------|----------|
 | `matplotlib` | Plot learning curves and metrics |
