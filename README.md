@@ -74,20 +74,20 @@ The plot like below will be obtained after enough training steps of approximatel
 </p><br>
 
 The results for the plots in the report may be instantly obtained by running the following commands:<br>
-**Training Peformance Evaluations**<br>
+**Training Peformance Evaluations**:<br>
 
 `seed_3_eval/sac_baseline_v_wvf_peformance_training_maze.py`
 
 `seed_3_eval/sac_baseline_v_wvf_peformance_training_reach.py`
 
-**Done Action and Mastery Evaluations**<br>
+**Done Action and Mastery Evaluations**:<br>
 
 `seed_3_eval/done_mastery_eval_maze.py`
 
 `seed_3_eval/done_mastery_eval_reach.py`
 
-**Success At Desired Environment Goal Evaluation**<br>
+**Success At Desired Environment Goal Evaluation**:<br>
 `seed_3_eval/desired_env_goal_success_eval.py`
 
-**Sampling Efficiency Evaluation**<br>
+**Sampling Efficiency Evaluation**:<br>
 `seed_3_eval/goal_distance_vs_steps.py`
