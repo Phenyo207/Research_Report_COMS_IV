@@ -47,3 +47,6 @@ The peformance comparison plot like below will obtained:<br>
 <p align="center">
   <img src="readMe/Peformance.png" width="400"/>
 </p>
+To obtain the WVF & BASELINE SAC distance-to-goal plot, run:<br>
+`python sac_baseline_v_wvf_peformance_training_maze.py`<br><br>
+The peformance comparison plot like below will obtained:<br>
