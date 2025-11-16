@@ -1,4 +1,4 @@
-# 🧠 WVF-Langevin: Goal-Conditioned Reinforcement Learning with Continuous WVF and Langevin Sampling
+# 🧠 WVF in Continuous Control: Goal-Conditioned Reinforcement Learning with Continuous WVF and Langevin Sampling
 
 This repository implements a **GCRL Soft Actor-Critic (SAC)** framework enhanced with **World Value Function (WVF)** critics and **Langevin-based goal sampling**.  
 It supports **Gymnasium Robotics** environments and custom wrappers that allow the agent to autonomously discover and refine internal goals.
