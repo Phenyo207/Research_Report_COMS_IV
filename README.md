@@ -67,27 +67,35 @@ The heatmaps like below will be obtained during training as they are saved along
 </p>
 
 To obtain the  **GCRL-SAC BASELINE and GCRL-SAC WVF**  ***desired environment goal*** during training run:<br>
-`desired_env_goal_success_eval/main.py`<br><br>
+`python desired_env_goal_success_eval/main.py`<br><br>
 The plot like below will be obtained after enough training steps of approximately 1 million:<br>
 <p align="center">
   <img src="readMe/Desired.png" width="400"/>
 </p><br>
 
+To obtain the the ***mean & standard deviation*** **GCRL-SAC BASELINE and GCRL-SAC WVF**  ***zeroshot evaluation*** after training run:<br>
+**For STRAIGHTMAZE**:<br>
+`python zero_shot_straight_maze.py`<br><br>
+
+**For UMAZE**:<br>
+`python zero_shot_u_maze.py`<br><br>
+
+
 The results for the plots in the report may be instantly obtained by running the following commands:<br>
 **Training Peformance Evaluations**:<br>
 
-`seed_3_eval/sac_baseline_v_wvf_peformance_training_maze.py`
+`python seed_3_eval/sac_baseline_v_wvf_peformance_training_maze.py`
 
-`seed_3_eval/sac_baseline_v_wvf_peformance_training_reach.py`
+`python seed_3_eval/sac_baseline_v_wvf_peformance_training_reach.py`
 
 **Done Action and Mastery Evaluations**:<br>
 
-`seed_3_eval/done_mastery_eval_maze.py`
+`python seed_3_eval/done_mastery_eval_maze.py`
 
-`seed_3_eval/done_mastery_eval_reach.py`
+`python seed_3_eval/done_mastery_eval_reach.py`
 
 **Success At Desired Environment Goal Evaluation**:<br>
-`seed_3_eval/desired_env_goal_success_eval.py`
+`python seed_3_eval/desired_env_goal_success_eval.py`
 
 **Sampling Efficiency Evaluation**:<br>
-`seed_3_eval/goal_distance_vs_steps.py`
+`python seed_3_eval/goal_distance_vs_steps.py`
