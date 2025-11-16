@@ -33,11 +33,17 @@ It supports **Gymnasium Robotics** environments and custom wrappers that allow t
 
 To train the WVF-SAC agent on a gymnasiumrobotics environment, run:<br>
 `python main.py`<br><br>
-To train the WVF-BASELINE agent on a gymnasiumrobotics environment, run:<br>
-`python sac_baseline_straightmaze/main.py`<br><br>
-Training completes after a minimum of 3 seed trials, to obtain a plot of mastery and done action ratio during training for the STRAIGHTMAZE environment run:<br>
-`python done_mastery_eval_maze.py`,run:<br>
-The mastery & done action plot like below will b obtained:<br>
+To train the WVF & BASELINE SAC agent on a gymnasiumrobotics environment, run:<br>
+`python sac_baseline_HER/main.py`<br><br>
+Training completes after a minimum of 3 seed trials for both the Baseline and WVF SAC, to obtain a plot of mastery and done action ratio during training for the STRAIGHTMAZE environment run:<br>
+`python done_mastery_eval_maze.py`<br>
+The mastery & done action plot like below will obtained:<br>
 <p align="center">
   <img src="readMe/DoneMastery.png" width="400"/>
+</p>
+To obtain the WVF & BASELINE SAC agent, run:<br>
+`sac_baseline_v_wvf_peformance_training_maze.py`<br>
+The peformance comparison plot like below will obtained:<br>
+<p align="center">
+  <img src="readMe/Peformance.png" width="400"/>
 </p>
