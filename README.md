@@ -41,9 +41,9 @@ The mastery & done action plot like below will obtained:<br>
 <p align="left">
   <img src="readMe/DoneMastery.png" width="400"/>
 </p><br>
-To obtain the WVF & BASELINE SAC agent, run:<br>\
+To obtain the WVF & BASELINE SAC agent, run:<br>
 ```bash
-`python sac_baseline_v_wvf_peformance_training_maze.py`<br>
+python sac_baseline_v_wvf_peformance_training_maze.py
 
 The peformance comparison plot like below will obtained:<br>
 <p align="left">
