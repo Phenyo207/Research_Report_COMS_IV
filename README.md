@@ -29,6 +29,9 @@ It supports **Gymnasium Robotics** environments and custom wrappers that allow t
 | `tqdm` | Progress bars during training |
 | `pytest` | Testing utilities |
 | `wandb` or `mlflow` | Experiment tracking |
+## Experiments & Visualization
 
-source venv/bin/activate    # or .\venv\Scripts\activate on Windows
-pip install -r requirements.txt
+To **train** the WVF-SAC agent on a gymnasiumrobotics, run:
+python main.py
+To **train** the WVF-BASELINE agent on a gymnasiumrobotics, run:
+python sac_baseline_straightmaze/main.py
