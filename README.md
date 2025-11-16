@@ -31,7 +31,7 @@ It supports **Gymnasium Robotics** environments and custom wrappers that allow t
 | `wandb` or `mlflow` | Experiment tracking |
 ## Experiments & Visualization
 
-To **train** the WVF-SAC agent on a gymnasiumrobotics, run:
-python main.py
-To **train** the WVF-BASELINE agent on a gymnasiumrobotics, run:
-python sac_baseline_straightmaze/main.py
+To train the WVF-SAC agent on a gymnasiumrobotics environment, run:<br>
+`python main.py`<br><br>
+To train the WVF-BASELINE agent on a gymnasiumrobotics environment, run:<br>
+`python sac_baseline_straightmaze/main.py`
