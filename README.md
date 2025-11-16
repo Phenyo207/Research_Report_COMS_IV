@@ -38,13 +38,14 @@ To train the WVF & BASELINE SAC agent on a gymnasiumrobotics environment, run:<b
 Training completes after a minimum of 3 seed trials for both the Baseline and WVF SAC, to obtain a plot of mastery and done action ratio during training for the STRAIGHTMAZE environment run:<br>
 `python done_mastery_eval_maze.py`<br>
 The mastery & done action plot like below will obtained:<br>
-<p align="center">
+<p align="left">
   <img src="readMe/DoneMastery.png" width="400"/>
 </p><br>
-To obtain the WVF & BASELINE SAC agent, run:<br>
+To obtain the WVF & BASELINE SAC agent, run:<br>\
+```bash
 `python sac_baseline_v_wvf_peformance_training_maze.py`<br>
-`python done_mastery_eval_maze.py`<br>
+
 The peformance comparison plot like below will obtained:<br>
-<p align="center">
+<p align="left">
   <img src="readMe/Peformance.png" width="400"/>
 </p>
