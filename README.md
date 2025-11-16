@@ -56,21 +56,21 @@ To obtain the **GCRL-SAC BASELINE and GCRL-SAC WVF** distance-to-goal plot run:<
 The ***distance to goal*** for measure of sample efficiency during training curve comparison between **GCRL-SAC BASELINE and GCRL-SAC WVF** plot like below will obtained:<br>
 The peformance comparison plot like below will obtained:<br>
 <p align="center">
-  <img src="readMe/Peformance.png" width="400"/>
+  <img src="readMe/GoalDistance.png" width="400"/>
 </p>
 
 To train the  GCRL-SAC WVF agent exclusively on four corners **TOP LEFT, TOP RIGHT, BOTTOM RIGHT, BOTTOM LEFT** in the STARIGHTMAZE environment run:<br>
 `python 4_corners_sac_wvf_straightmaze/main.py`<br><br>
 The heatmaps like below will be obtained during training as they are saved along with checkpoints at 20000 steps intervals:<br>
 <p align="center">
-  <img src="readMe/Peformance.png" width="400"/>
+  <img src="readMe/Heatmaps.png" width="400"/>
 </p>
 
 To obtain the  **GCRL-SAC BASELINE and GCRL-SAC WVF**  ***desired environment goal*** during training run:<br>
 `desired_env_goal_success_eval/main.py`<br><br>
 The plot like below will be obtained after enough training steps of approximately 1 million:<br>
 <p align="center">
-  <img src="readMe/Peformance.png" width="400"/>
+  <img src="readMe/Desired.png" width="400"/>
 </p><br>
 
 The results for the plots in the report may be instantly obtained by running the following commands:<br>
