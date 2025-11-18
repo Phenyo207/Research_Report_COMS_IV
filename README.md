@@ -99,3 +99,12 @@ The results for the plots in the report may be instantly obtained by running the
 
 **Sampling Efficiency Evaluation**:<br>
 `python seed_3_eval/goal_distance_vs_steps.py`
+
+**Simulation Visuals**:<br>
+<p align="center">
+  <img src="media/MAZE_IMG_1024x1024.png" width="400"/>
+</p><br>
+
+The simulation for the STRAIGHTMAZE on a trained SAC-WVF model can be obtained from the video:(https://youtu.be/Hiz01OeWtAQ)
+ or by running:<br>
+`python test.py`
